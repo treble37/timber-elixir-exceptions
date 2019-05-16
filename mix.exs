@@ -105,7 +105,8 @@ defmodule Timber.Exceptions.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:timber, "~> 3.1"},
+      {:timber,
+       git: "https://github.com/treble37/timber-elixir.git", branch: "handle-hackney-exit"},
 
       #
       # Tooling
